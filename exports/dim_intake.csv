@@ -1,18 +1,18 @@
-MethodReceived
-Citizen Web
-Citizen Web Intake App
-Community Walk
-E-Mail
-Field
-Find It Fix It Apps
-Kiosk
-Letter
-Mail
-Mass Entry
-Other
-Paper Form
-Phone
-PremierOne CSR Mobile Apps
-Voice Mail
-Walk-In
-Web Form
+IntakeID,MethodReceived,MethodReceivedKey
+1,Citizen Web,CITIZEN WEB
+2,Citizen Web Intake App,CITIZEN WEB INTAKE APP
+3,Community Walk,COMMUNITY WALK
+4,E-Mail,E-MAIL
+5,Field,FIELD
+6,Find It Fix It Apps,FIND IT FIX IT APPS
+7,Kiosk,KIOSK
+8,Letter,LETTER
+9,Mail,MAIL
+10,Mass Entry,MASS ENTRY
+11,Other,OTHER
+12,Paper Form,PAPER FORM
+13,Phone,PHONE
+14,PremierOne CSR Mobile Apps,PREMIERONE CSR MOBILE APPS
+15,Voice Mail,VOICE MAIL
+16,Walk-In,WALK-IN
+17,Web Form,WEB FORM

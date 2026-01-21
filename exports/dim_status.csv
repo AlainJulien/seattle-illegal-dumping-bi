@@ -1,10 +1,10 @@
-Status
-Canceled
-Closed
-Closed -Incomplete Information
-Closed as Duplicate
-Duplicate (Closed)
-Duplicate (Open)
-Open
-Reported
-Transferred to Other Dept
+StatusID,Status,StatusKey
+1,Canceled,CANCELED
+2,Closed,CLOSED
+3,Closed -Incomplete Information,CLOSED -INCOMPLETE INFORMATION
+4,Closed as Duplicate,CLOSED AS DUPLICATE
+5,Duplicate (Closed),DUPLICATE (CLOSED)
+6,Duplicate (Open),DUPLICATE (OPEN)
+7,Open,OPEN
+8,Reported,REPORTED
+9,Transferred to Other Dept,TRANSFERRED TO OTHER DEPT
