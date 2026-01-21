@@ -1,0 +1,245 @@
+ViolationLocatedAt,DumpingDescription,CategoryKey
+Unknown,Unknown,UNKNOWN|UNKNOWN
+Alley,Garbage,ALLEY|GARBAGE
+Planting Strip,Furniture,PLANTING STRIP|FURNITURE
+Planting Strip,Tires,PLANTING STRIP|TIRES
+Sidewalk,Furniture,SIDEWALK|FURNITURE
+Sidewalk,Garbage,SIDEWALK|GARBAGE
+Alley,Furniture,ALLEY|FURNITURE
+Sidewalk,Electronics,SIDEWALK|ELECTRONICS
+"Other, enter more details",Garbage,"OTHER, ENTER MORE DETAILS|GARBAGE"
+Other,Furniture,OTHER|FURNITURE
+"Other, enter more details",Furniture,"OTHER, ENTER MORE DETAILS|FURNITURE"
+Planting Strip,Appliance,PLANTING STRIP|APPLIANCE
+Sidewalk,Construction Debris,SIDEWALK|CONSTRUCTION DEBRIS
+Sidewalk,TV / Computer Monitor,SIDEWALK|TV / COMPUTER MONITOR
+Alley,Construction Debris,ALLEY|CONSTRUCTION DEBRIS
+Planting Strip,Auto Parts,PLANTING STRIP|AUTO PARTS
+Greenbelt,Furniture,GREENBELT|FURNITURE
+Right of Way,Furniture,RIGHT OF WAY|FURNITURE
+Sidewalk,Yard Waste,SIDEWALK|YARD WASTE
+Alley,Appliance,ALLEY|APPLIANCE
+Median,Furniture,MEDIAN|FURNITURE
+Right of Way,Garbage,RIGHT OF WAY|GARBAGE
+Alley,TV / Computer Monitor,ALLEY|TV / COMPUTER MONITOR
+Alley,Unknown,ALLEY|UNKNOWN
+Planting Strip,Garbage,PLANTING STRIP|GARBAGE
+Sidewalk,"Other, enter more details","SIDEWALK|OTHER, ENTER MORE DETAILS"
+Alley,"Other, enter more details","ALLEY|OTHER, ENTER MORE DETAILS"
+Sidewalk,Appliance,SIDEWALK|APPLIANCE
+Alley,Tires,ALLEY|TIRES
+Planting Strip,Construction Debris,PLANTING STRIP|CONSTRUCTION DEBRIS
+Planting Strip,Litter,PLANTING STRIP|LITTER
+Sidewalk,"Hazmat (paints, solvents, unidentified liquids)","SIDEWALK|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Alley,Yard Waste,ALLEY|YARD WASTE
+Sidewalk,Auto Parts,SIDEWALK|AUTO PARTS
+Planting Strip,Yard Waste,PLANTING STRIP|YARD WASTE
+Alley,"Hazmat (paints, solvents, unidentified liquids)","ALLEY|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Planting Strip,TV / Computer Monitor,PLANTING STRIP|TV / COMPUTER MONITOR
+Greenbelt,"Other, enter more details","GREENBELT|OTHER, ENTER MORE DETAILS"
+Sidewalk,Other,SIDEWALK|OTHER
+Greenbelt,Construction Debris,GREENBELT|CONSTRUCTION DEBRIS
+Planting Strip,"Other, enter more details","PLANTING STRIP|OTHER, ENTER MORE DETAILS"
+"Other, enter more details","Hazmat (paints, solvents, unidentified liquids)","OTHER, ENTER MORE DETAILS|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Sidewalk,Tires,SIDEWALK|TIRES
+Median,"Other, enter more details","MEDIAN|OTHER, ENTER MORE DETAILS"
+Greenbelt,Garbage,GREENBELT|GARBAGE
+Vacant Lot,"Other, enter more details","VACANT LOT|OTHER, ENTER MORE DETAILS"
+Alley,Auto Parts,ALLEY|AUTO PARTS
+Median,"Hazmat (paints, solvents, unidentified liquids)","MEDIAN|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+"Other, enter more details",Yard Waste,"OTHER, ENTER MORE DETAILS|YARD WASTE"
+Median,Litter,MEDIAN|LITTER
+Planting Strip,Electronics,PLANTING STRIP|ELECTRONICS
+"Other, enter more details",Electronics,"OTHER, ENTER MORE DETAILS|ELECTRONICS"
+Right of Way,Litter,RIGHT OF WAY|LITTER
+Right of Way,Construction Debris,RIGHT OF WAY|CONSTRUCTION DEBRIS
+Vacant Lot,Furniture,VACANT LOT|FURNITURE
+Greenbelt,Yard Waste,GREENBELT|YARD WASTE
+Median,Garbage,MEDIAN|GARBAGE
+Median,Electronics,MEDIAN|ELECTRONICS
+Right of Way,Unknown,RIGHT OF WAY|UNKNOWN
+Right of Way,Auto Parts,RIGHT OF WAY|AUTO PARTS
+Greenbelt,Electronics,GREENBELT|ELECTRONICS
+Right of Way,"Other, enter more details","RIGHT OF WAY|OTHER, ENTER MORE DETAILS"
+Unknown,Furniture,UNKNOWN|FURNITURE
+Planting Strip,Unknown,PLANTING STRIP|UNKNOWN
+Right of Way,TV / Computer Monitor,RIGHT OF WAY|TV / COMPUTER MONITOR
+"Other, enter more details","Other, enter more details","OTHER, ENTER MORE DETAILS|OTHER, ENTER MORE DETAILS"
+Planting Strip,"Hazmat (paints, solvents, unidentified liquids)","PLANTING STRIP|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Alley,Electronics,ALLEY|ELECTRONICS
+Alley,Litter,ALLEY|LITTER
+Right of Way,Yard Waste,RIGHT OF WAY|YARD WASTE
+Vacant Lot,Yard Waste,VACANT LOT|YARD WASTE
+Median,Auto Parts,MEDIAN|AUTO PARTS
+Right of Way,"Hazmat (paints, solvents, unidentified liquids)","RIGHT OF WAY|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+"Other, enter more details",Tires,"OTHER, ENTER MORE DETAILS|TIRES"
+"Other, enter more details",Litter,"OTHER, ENTER MORE DETAILS|LITTER"
+Sidewalk,Litter,SIDEWALK|LITTER
+"Other, enter more details",Unknown,"OTHER, ENTER MORE DETAILS|UNKNOWN"
+"Other, enter more details",Construction Debris,"OTHER, ENTER MORE DETAILS|CONSTRUCTION DEBRIS"
+"Other, enter more details",TV / Computer Monitor,"OTHER, ENTER MORE DETAILS|TV / COMPUTER MONITOR"
+Greenbelt,TV / Computer Monitor,GREENBELT|TV / COMPUTER MONITOR
+Greenbelt,Tires,GREENBELT|TIRES
+"Other, enter more details",Appliance,"OTHER, ENTER MORE DETAILS|APPLIANCE"
+Vacant Lot,Garbage,VACANT LOT|GARBAGE
+Greenbelt,Auto Parts,GREENBELT|AUTO PARTS
+Vacant Lot,Tires,VACANT LOT|TIRES
+Greenbelt,Litter,GREENBELT|LITTER
+"Other, enter more details",Auto Parts,"OTHER, ENTER MORE DETAILS|AUTO PARTS"
+Greenbelt,Unknown,GREENBELT|UNKNOWN
+Right of Way,Appliance,RIGHT OF WAY|APPLIANCE
+Right of Way,Tires,RIGHT OF WAY|TIRES
+Median,Yard Waste,MEDIAN|YARD WASTE
+Median,TV / Computer Monitor,MEDIAN|TV / COMPUTER MONITOR
+Vacant Lot,Construction Debris,VACANT LOT|CONSTRUCTION DEBRIS
+Planting Strip,Other,PLANTING STRIP|OTHER
+Greenbelt,"Hazmat (paints, solvents, unidentified liquids)","GREENBELT|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Right of Way,Electronics,RIGHT OF WAY|ELECTRONICS
+Vacant Lot,"Hazmat (paints, solvents, unidentified liquids)","VACANT LOT|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Other,Garbage,OTHER|GARBAGE
+Alley,Other,ALLEY|OTHER
+Other,Auto Parts,OTHER|AUTO PARTS
+Right of Way,Other,RIGHT OF WAY|OTHER
+Median,Tires,MEDIAN|TIRES
+Sidewalk,Unknown,SIDEWALK|UNKNOWN
+Median,Other,MEDIAN|OTHER
+Vacant Lot,TV / Computer Monitor,VACANT LOT|TV / COMPUTER MONITOR
+Vacant Lot,Litter,VACANT LOT|LITTER
+Other,Construction Debris,OTHER|CONSTRUCTION DEBRIS
+Other,"Hazmat (paints, solvents, unidentified liquids)","OTHER|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Other,Other,OTHER|OTHER
+Greenbelt,Other,GREENBELT|OTHER
+Median,Construction Debris,MEDIAN|CONSTRUCTION DEBRIS
+Other,Tires,OTHER|TIRES
+Other,Litter,OTHER|LITTER
+Other,Appliance,OTHER|APPLIANCE
+Vacant Lot,Auto Parts,VACANT LOT|AUTO PARTS
+Unknown,"Other, enter more details","UNKNOWN|OTHER, ENTER MORE DETAILS"
+Vacant Lot,Other,VACANT LOT|OTHER
+Greenbelt,Appliance,GREENBELT|APPLIANCE
+Other,TV / Computer Monitor,OTHER|TV / COMPUTER MONITOR
+Other,Electronics,OTHER|ELECTRONICS
+Unknown,"Hazmat (paints, solvents, unidentified liquids)","UNKNOWN|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Vacant Lot,Electronics,VACANT LOT|ELECTRONICS
+Vacant Lot,Appliance,VACANT LOT|APPLIANCE
+Other,Yard Waste,OTHER|YARD WASTE
+Median,Appliance,MEDIAN|APPLIANCE
+Vacant Lot,Unknown,VACANT LOT|UNKNOWN
+Unknown,Garbage,UNKNOWN|GARBAGE
+Underpass (freeway),Garbage,UNDERPASS (FREEWAY)|GARBAGE
+"Other, enter more details",Needles,"OTHER, ENTER MORE DETAILS|NEEDLES"
+Private Property,"Other, enter more details","PRIVATE PROPERTY|OTHER, ENTER MORE DETAILS"
+Under Bridge,Litter,UNDER BRIDGE|LITTER
+Sidewalk,Needles,SIDEWALK|NEEDLES
+Private Property,Garbage,PRIVATE PROPERTY|GARBAGE
+City Park,Garbage,CITY PARK|GARBAGE
+City Park,Other,CITY PARK|OTHER
+Private Property,Other,PRIVATE PROPERTY|OTHER
+Private Property,Yard Waste,PRIVATE PROPERTY|YARD WASTE
+Under Bridge,Furniture,UNDER BRIDGE|FURNITURE
+City Park,Furniture,CITY PARK|FURNITURE
+Under Bridge,Garbage,UNDER BRIDGE|GARBAGE
+Planting Strip,Needles,PLANTING STRIP|NEEDLES
+Under Bridge,Needles,UNDER BRIDGE|NEEDLES
+Dumpster,Garbage,DUMPSTER|GARBAGE
+Unknown,Yard Waste,UNKNOWN|YARD WASTE
+Private Property,Furniture,PRIVATE PROPERTY|FURNITURE
+Underpass (freeway),"Other, enter more details","UNDERPASS (FREEWAY)|OTHER, ENTER MORE DETAILS"
+City Park,Appliance,CITY PARK|APPLIANCE
+Dumpster,Furniture,DUMPSTER|FURNITURE
+City Park,"Hazmat (paints, solvents, unidentified liquids)","CITY PARK|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+City Park,Yard Waste,CITY PARK|YARD WASTE
+Under Bridge,"Other, enter more details","UNDER BRIDGE|OTHER, ENTER MORE DETAILS"
+City Park,Litter,CITY PARK|LITTER
+City Park,"Other, enter more details","CITY PARK|OTHER, ENTER MORE DETAILS"
+Alley,Needles,ALLEY|NEEDLES
+Private Property,"Hazmat (paints, solvents, unidentified liquids)","PRIVATE PROPERTY|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Private Property,Litter,PRIVATE PROPERTY|LITTER
+Underpass (freeway),Other,UNDERPASS (FREEWAY)|OTHER
+Underpass (freeway),Litter,UNDERPASS (FREEWAY)|LITTER
+Dumpster,Other,DUMPSTER|OTHER
+Right of Way,Needles,RIGHT OF WAY|NEEDLES
+City Park,Electronics,CITY PARK|ELECTRONICS
+Unknown,Needles,UNKNOWN|NEEDLES
+City Park,Needles,CITY PARK|NEEDLES
+Under Bridge,Other,UNDER BRIDGE|OTHER
+Underpass (freeway),Needles,UNDERPASS (FREEWAY)|NEEDLES
+Other,Needles,OTHER|NEEDLES
+City Park,Tires,CITY PARK|TIRES
+Underpass (freeway),Auto Parts,UNDERPASS (FREEWAY)|AUTO PARTS
+Dumpster,Construction Debris,DUMPSTER|CONSTRUCTION DEBRIS
+Vacant Lot,Needles,VACANT LOT|NEEDLES
+City Park,Construction Debris,CITY PARK|CONSTRUCTION DEBRIS
+Dumpster,Litter,DUMPSTER|LITTER
+Greenbelt,Needles,GREENBELT|NEEDLES
+Dumpster,"Other, enter more details","DUMPSTER|OTHER, ENTER MORE DETAILS"
+Under Bridge,"Hazmat (paints, solvents, unidentified liquids)","UNDER BRIDGE|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Private Property,Construction Debris,PRIVATE PROPERTY|CONSTRUCTION DEBRIS
+Dumpster,Appliance,DUMPSTER|APPLIANCE
+Private Property,Needles,PRIVATE PROPERTY|NEEDLES
+City Park,TV / Computer Monitor,CITY PARK|TV / COMPUTER MONITOR
+Private Property,Appliance,PRIVATE PROPERTY|APPLIANCE
+Underpass (freeway),"Hazmat (paints, solvents, unidentified liquids)","UNDERPASS (FREEWAY)|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Under Bridge,Construction Debris,UNDER BRIDGE|CONSTRUCTION DEBRIS
+Private Property,Electronics,PRIVATE PROPERTY|ELECTRONICS
+Private Property,TV / Computer Monitor,PRIVATE PROPERTY|TV / COMPUTER MONITOR
+Under Bridge,Yard Waste,UNDER BRIDGE|YARD WASTE
+Underpass (freeway),Furniture,UNDERPASS (FREEWAY)|FURNITURE
+Private Property,Tires,PRIVATE PROPERTY|TIRES
+City Park,Auto Parts,CITY PARK|AUTO PARTS
+Unknown,Litter,UNKNOWN|LITTER
+Dumpster,Needles,DUMPSTER|NEEDLES
+Median,Needles,MEDIAN|NEEDLES
+Private Property,Auto Parts,PRIVATE PROPERTY|AUTO PARTS
+Dumpster,Auto Parts,DUMPSTER|AUTO PARTS
+Under Bridge,Tires,UNDER BRIDGE|TIRES
+Underpass (freeway),Appliance,UNDERPASS (FREEWAY)|APPLIANCE
+Under Bridge,TV / Computer Monitor,UNDER BRIDGE|TV / COMPUTER MONITOR
+Underpass (freeway),Yard Waste,UNDERPASS (FREEWAY)|YARD WASTE
+Dumpster,Electronics,DUMPSTER|ELECTRONICS
+Under Bridge,Electronics,UNDER BRIDGE|ELECTRONICS
+Underpass (freeway),Electronics,UNDERPASS (FREEWAY)|ELECTRONICS
+Underpass (freeway),Construction Debris,UNDERPASS (FREEWAY)|CONSTRUCTION DEBRIS
+City Park,Unknown,CITY PARK|UNKNOWN
+Unknown,Tires,UNKNOWN|TIRES
+Dumpster,"Hazmat (paints, solvents, unidentified liquids)","DUMPSTER|HAZMAT (PAINTS, SOLVENTS, UNIDENTIFIED LIQUIDS)"
+Unknown,TV / Computer Monitor,UNKNOWN|TV / COMPUTER MONITOR
+Unknown,Appliance,UNKNOWN|APPLIANCE
+Under Bridge,Auto Parts,UNDER BRIDGE|AUTO PARTS
+Unknown,Construction Debris,UNKNOWN|CONSTRUCTION DEBRIS
+Unknown,Electronics,UNKNOWN|ELECTRONICS
+Under Bridge,Appliance,UNDER BRIDGE|APPLIANCE
+Unknown,Auto Parts,UNKNOWN|AUTO PARTS
+Dumpster,Tires,DUMPSTER|TIRES
+Dumpster,Yard Waste,DUMPSTER|YARD WASTE
+Dumpster,TV / Computer Monitor,DUMPSTER|TV / COMPUTER MONITOR
+Under Bridge,Unknown,UNDER BRIDGE|UNKNOWN
+Unknown,Other,UNKNOWN|OTHER
+Underpass (freeway),Tires,UNDERPASS (FREEWAY)|TIRES
+Underpass (freeway),TV / Computer Monitor,UNDERPASS (FREEWAY)|TV / COMPUTER MONITOR
+Alley,Hazmat,ALLEY|HAZMAT
+Alley,Shopping Carts,ALLEY|SHOPPING CARTS
+Other,Shopping Carts,OTHER|SHOPPING CARTS
+Sidewalk,Shopping Carts,SIDEWALK|SHOPPING CARTS
+Planting Strip,Shopping Carts,PLANTING STRIP|SHOPPING CARTS
+City Park,Shopping Carts,CITY PARK|SHOPPING CARTS
+Greenbelt,Shopping Carts,GREENBELT|SHOPPING CARTS
+Right of Way,Shopping Carts,RIGHT OF WAY|SHOPPING CARTS
+Vacant Lot,Shopping Carts,VACANT LOT|SHOPPING CARTS
+Median,Shopping Carts,MEDIAN|SHOPPING CARTS
+Private Property,Shopping Carts,PRIVATE PROPERTY|SHOPPING CARTS
+Under Bridge,Shopping Carts,UNDER BRIDGE|SHOPPING CARTS
+Dumpster,Shopping Carts,DUMPSTER|SHOPPING CARTS
+Sidewalk,Mattress,SIDEWALK|MATTRESS
+Other,Mattress,OTHER|MATTRESS
+Planting Strip,Mattress,PLANTING STRIP|MATTRESS
+Greenbelt,Mattress,GREENBELT|MATTRESS
+Alley,Mattress,ALLEY|MATTRESS
+Vacant Lot,Mattress,VACANT LOT|MATTRESS
+Right of Way,Mattress,RIGHT OF WAY|MATTRESS
+Median,Mattress,MEDIAN|MATTRESS
+City Park,Mattress,CITY PARK|MATTRESS
+Private Property,Mattress,PRIVATE PROPERTY|MATTRESS
+Underpass (freeway),Shopping Carts,UNDERPASS (FREEWAY)|SHOPPING CARTS
+Dumpster,Mattress,DUMPSTER|MATTRESS
+Under Bridge,Mattress,UNDER BRIDGE|MATTRESS
