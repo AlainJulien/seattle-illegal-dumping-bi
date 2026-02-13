@@ -1,4 +1,4 @@
-\# Seattle Illegal Dumping Business Intelligence Analysis
+# Seattle Illegal Dumping Business Intelligence Analysis
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -27,7 +27,7 @@ This project transforms raw Seattle Public Utilities illegal dumping data into a
 
 
 
-\### Key Findings
+### Key Findings
 
 
 
@@ -49,7 +49,7 @@ This project transforms raw Seattle Public Utilities illegal dumping data into a
 
 
 
-\### The Counterintuitive Story
+### The Counterintuitive Story
 
 
 
@@ -60,7 +60,7 @@ Stakeholders assumed illegal dumping was growing. The data showed the opposite: 
 
 
 
-\## Technical Architecture
+## Technical Architecture
 
 ```
 
@@ -94,7 +94,7 @@ DAX Measures (25+ measures)
 
 
 
-\## Data Model
+## Data Model
 
 
 
@@ -126,11 +126,11 @@ Star Schema — Kimball Methodology
 
 
 
-\## Dashboard Pages
+## Dashboard Pages
 
 
 
-\### Page 1 — Executive Summary
+### Page 1 — Executive Summary
 
 \- Total requests, closure rate (87.46%), open backlog (512)
 
@@ -142,7 +142,7 @@ Star Schema — Kimball Methodology
 
 
 
-\### Page 2 — Geographic Analysis
+### Page 2 — Geographic Analysis
 
 \- Top ZIPs by 3-year change (baseline filter: ≥50 requests in 2022)
 
@@ -154,7 +154,7 @@ Star Schema — Kimball Methodology
 
 
 
-\### Page 3 — Category Analysis
+### Page 3 — Category Analysis
 
 \- Garbage largest volume; Furniture #2 (~62,640 total)
 
@@ -168,7 +168,7 @@ Star Schema — Kimball Methodology
 
 
 
-\### Page 4 — Temporal Analysis
+### Page 4 — Temporal Analysis
 
 \- Friday midnight: 442 requests at Hour 0 - 7× comparable slots
 
@@ -186,7 +186,7 @@ Star Schema — Kimball Methodology
 
 
 
-\## Key Technical Challenges Solved
+## Key Technical Challenges Solved
 
 
 
@@ -212,7 +212,7 @@ Star Schema — Kimball Methodology
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -234,7 +234,7 @@ Star Schema — Kimball Methodology
 
 
 
-\## Quick Start
+## Quick Start
 
 ```bash
 
@@ -250,7 +250,7 @@ pip install -r requirements.txt
 
 python scripts/build\_star\_schema.py
 
-\# Open dashboards/seattle\_dumping\_dashboard.pbix in Power BI Desktop
+# Open dashboards/seattle\_dumping\_dashboard.pbix in Power BI Desktop
 
 ```
 
@@ -264,7 +264,7 @@ See \[QUICKSTART.md](QUICKSTART.md) for full setup instructions.
 
 
 
-\## Data Source
+## Data Source
 
 
 
@@ -272,7 +272,7 @@ See \[QUICKSTART.md](QUICKSTART.md) for full setup instructions.
 
 
 
-\## License
+## License
 
 
 
@@ -280,7 +280,7 @@ MIT — see \[LICENSE](LICENSE)
 
 
 
-\## Contact
+## Contact
 
 
 
