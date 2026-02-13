@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data layers (keep raw/exports out of git if large or sensitive)
+02_raw/
+exports/
+
+# OS
+.DS_Store
+Thumbs.db
