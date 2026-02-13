@@ -2,19 +2,16 @@
 
 
 
-\[!\[Python](https://img.shields.io/badge/Python-3.8+-blue)
-
-\[!\[Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-
-\[!\[License: MIT](https://img.shields.io/badge/License-MIT-green)
-
-\[!\[Data Quality](https://img.shields.io/badge/Data%20Quality-99.1%25-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+![DataQuality](https://img.shields.io/badge/Data_Quality-99.1%25-brightgreen)
 
 
 
-> \*\*End-to-end BI solution analyzing 266,360 illegal dumping reports in Seattle (2021-2025).
+> End-to-end BI solution analyzing 266,360 illegal dumping reports in Seattle (2021-2025).
 
-> The headline finding is counterintuitive: requests DECLINED 18% from 2022 to 2025 - evidence of successful intervention — while Bulk Items bucked the trend and grew, pointing to a specific service gap.\*\*
+> The headline finding is counterintuitive: requests DECLINED 18% from 2022 to 2025 - evidence of successful intervention — while Bulk Items bucked the trend and grew, pointing to a specific service gap.
 
 
 
@@ -101,7 +98,7 @@ DAX Measures (25+ measures)
 
 
 
-\*\*Star Schema — Kimball Methodology\*\*
+Star Schema — Kimball Methodology
 
 
 
@@ -219,17 +216,17 @@ DAX Measures (25+ measures)
 
 
 
-\- \*\*ETL\*\*: Python (Pandas, GeoPandas), ZIP imputation, composite key design
+\- ETL: Python (Pandas, GeoPandas), ZIP imputation, composite key design
 
-\- \*\*Dimensional Modelling\*\*: Kimball star schema, 6 dimensions, grain definition
+\- Dimensional Modelling: Kimball star schema, 6 dimensions, grain definition
 
-\- \*\*DAX\*\*: Time intelligence, ranking, baseline filtering, QA measures
+\- DAX: Time intelligence, ranking, baseline filtering, QA measures
 
-\- \*\*Power BI\*\*: 4-page dashboard, Power Query M date dimension, relationships
+\- Power BI: 4-page dashboard, Power Query M date dimension, relationships
 
-\- \*\*Business Analysis\*\*: Counterintuitive insight, recommendations, stakeholder narrative
+\- Business Analysis: Counterintuitive insight, recommendations, stakeholder narrative
 
-\- \*\*DevOps\*\*: Git, GitHub Actions CI/CD
+\- DevOps: Git, GitHub Actions CI/CD
 
 
 
@@ -287,7 +284,7 @@ MIT — see \[LICENSE](LICENSE)
 
 
 
-\*\*Alain\*\* — Future Business Intelligence Engineer/Analyst
+Alain - Future Business Intelligence Engineer/Analyst
 
 \- GitHub: (https://github.com/AlainJulien)
 
