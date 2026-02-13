@@ -145,6 +145,8 @@ DAX Measures (25+ measures)
 
 \- Summer peaks visible in both 2022 and 2025
 
+\- ![Executive Summary](docs/images/Executive_Summary.png)
+
 
 
 \### Page 2 — Geographic Analysis
@@ -154,6 +156,8 @@ DAX Measures (25+ measures)
 \- NORTH region highest volume but also most dramatic improvements
 
 \- 98107, 98103, 98125 each declined ~99% — intervention success
+
+\- ![Geographic Hotspots](docs/images/Geographic_Hotspots.png)
 
 
 
@@ -167,6 +171,8 @@ DAX Measures (25+ measures)
 
 \- Needles = 3rd largest category (public health concern)
 
+\- ![Category Analysis](docs/images/Category_Analysis.png)
+
 
 
 \### Page 4 — Temporal Analysis
@@ -178,6 +184,8 @@ DAX Measures (25+ measures)
 \- Weekly baseline: 500–600/week; summer uptick to 700–800
 
 \- Friday 00:00–04:59 = commercial dumping enforcement window
+
+\- ![Temporal Analysis](docs/images/Temporal_Analysis.png)
 
 
 
