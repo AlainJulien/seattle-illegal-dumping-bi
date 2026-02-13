@@ -2,17 +2,17 @@
 
 
 
-\[!\[Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+\[!\[Python](https://img.shields.io/badge/Python-3.8+-blue)
 
-\[!\[Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)](https://powerbi.microsoft.com/)
+\[!\[Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 
-\[!\[License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+\[!\[License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-\[!\[Data Quality](https://img.shields.io/badge/Data%20Quality-99.1%25-brightgreen)](docs/METHODOLOGY.md)
+\[!\[Data Quality](https://img.shields.io/badge/Data%20Quality-99.1%25-brightgreen)
 
 
 
-> \*\*End-to-end BI solution analysing 266,360 illegal dumping reports in Seattle (2021–2025).
+> \*\*End-to-end BI solution analyzing 266,360 illegal dumping reports in Seattle (2021–2025).
 
 > The headline finding is counterintuitive: requests DECLINED 18% from 2022 to 2025 —
 
@@ -145,7 +145,7 @@ DAX Measures (25+ measures)
 
 \- Summer peaks visible in both 2022 and 2025
 
-\- ![Executive Summary](docs/images/Executive_Summary.png)
+\- Executive Summary ![Executive Summary](docs/images/Executive_Summary.png)
 
 
 
@@ -157,7 +157,7 @@ DAX Measures (25+ measures)
 
 \- 98107, 98103, 98125 each declined ~99% — intervention success
 
-\- ![Geographic Hotspots](docs/images/Geographic_Hotspots.png)
+\- Geographic Hotspots Analysis ![Geographic Hotspots](docs/images/Geographic_Hotspots.png)
 
 
 
@@ -171,7 +171,7 @@ DAX Measures (25+ measures)
 
 \- Needles = 3rd largest category (public health concern)
 
-\- ![Category Analysis](docs/images/Category_Analysis.png)
+\- Category Analysis ![Category Analysis](docs/images/Category_Analysis.png)
 
 
 
@@ -185,7 +185,7 @@ DAX Measures (25+ measures)
 
 \- Friday 00:00–04:59 = commercial dumping enforcement window
 
-\- ![Temporal Analysis](docs/images/Temporal_Analysis.png)
+\- Temporal Analysis ![Temporal Analysis](docs/images/Temporal_Analysis.png)
 
 
 
