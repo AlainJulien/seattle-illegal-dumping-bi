@@ -12,13 +12,9 @@
 
 
 
-> \*\*End-to-end BI solution analyzing 266,360 illegal dumping reports in Seattle (2021–2025).
+> \*\*End-to-end BI solution analyzing 266,360 illegal dumping reports in Seattle (2021-2025).
 
-> The headline finding is counterintuitive: requests DECLINED 18% from 2022 to 2025 —
-
-> evidence of successful intervention — while Bulk Items bucked the trend and grew,
-
-> pointing to a specific service gap.\*\*
+> The headline finding is counterintuitive: requests DECLINED 18% from 2022 to 2025 - evidence of successful intervention — while Bulk Items bucked the trend and grew, pointing to a specific service gap.\*\*
 
 
 
@@ -48,7 +44,7 @@ This project transforms raw Seattle Public Utilities illegal dumping data into a
 
 | Closure rate | 87.46% — benchmark-worthy operations |
 
-| Bulk items | Growing despite overall decline ⚠️ |
+| Bulk items | Growing despite overall decline |
 
 | Friday midnight | 442 requests — 7× normal (commercial dumping signature) |
 
@@ -165,7 +161,7 @@ DAX Measures (25+ measures)
 
 \- Garbage largest volume; Furniture #2 (~62,640 total)
 
-\- Bulk Items (Furniture, Appliances, Tires) growing against overall trend ⚠️
+\- Bulk Items (Furniture, Appliances, Tires) growing against overall trend
 
 \- Sidewalk = #1 dump location across ALL regions
 
