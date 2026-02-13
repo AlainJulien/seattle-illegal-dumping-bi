@@ -2,10 +2,10 @@
 
 Complete schema reference for the Seattle Illegal Dumping star schema.
 
-**Model**: Kimball Star Schema
-**Grain**: One row per illegal dumping service request
-**Records**: 266,360 | **Period**: January 2021 – December 2025
-**Relationships**: All Many-to-One, single-direction (dimension → fact)
+Model: Kimball Star Schema
+Grain: One row per illegal dumping service request
+Records: 266,360 | Period: January 2021 - December 2025
+Relationships: All Many-to-One, single-direction (dimension → fact)
 
 ---
 
@@ -24,9 +24,7 @@ Complete schema reference for the Seattle Illegal Dumping star schema.
 | IntakeKey | INTEGER | FK to Dim_RequestSource |
 | RequestCount | INTEGER | Always 1 - used for SUM aggregations |
 
-**Note**: CreatedDateOnly is date-only (no time component) to ensure
-a clean Many-to-One join with Dim_Date. Hour-level analysis uses a
-separate Hour column retained in the fact table.
+Note: CreatedDateOnly is date-only (no time component) to ensure a clean Many-to-One join with Dim_Date. Hour-level analysis uses a separate Hour column retained in the fact table.
 
 ---
 
@@ -34,23 +32,23 @@ separate Hour column retained in the fact table.
 
 ### Dim_Date (2,191 rows)
 
-Generated via Power Query M. Covers Jan 1 2021 – Dec 31 2026 continuously.
-No gaps — required for DATESYTD and SAMEPERIODLASTYEAR to work correctly.
+Generated via Power Query M. Covers Jan 1 2021 - Dec 31 2026 continuously.
+No gaps - required for DATESYTD and SAMEPERIODLASTYEAR to work correctly.
 
 | Column | Type | Description | Example |
 |--------|------|-------------|---------|
 | Date | Date | Primary Key | 2025-01-15 |
 | Year | Integer | Calendar year | 2025 |
-| Quarter | Integer | 1–4 | 1 |
-| Month | Integer | 1–12 | 1 |
+| Quarter | Integer | 1-4 | 1 |
+| Month | Integer | 1-12 | 1 |
 | MonthName | Text | Full month name | January |
 | MonthShort | Text | Abbreviated | Jan |
 | Day | Integer | Day of month | 15 |
 | DayOfWeek | Integer | Mon=1 baseline | 3 |
 | DayOfWeekName | Text | Full day name | Wednesday |
 | IsWeekend | Boolean | True for Sat/Sun | False |
-| WeekOfYear | Integer | ISO week 1–53 | 3 |
-| DayOfYear | Integer | Day 1–365 | 15 |
+| WeekOfYear | Integer | ISO week 1-53 | 3 |
+| DayOfYear | Integer | Day 1-365 | 15 |
 | YearMonth | Text | Sort-friendly | 2025-01 |
 | YearMonthNum | Integer | Numeric sort key | 202501 |
 | QuarterName | Text | Label | Q1 2025 |
@@ -66,15 +64,15 @@ Hierarchy: Region → Council District → ZIP Code
 |--------|------|-------------|---------|
 | GeographyKey | Integer | Surrogate PK (Power Query index) | 1 |
 | ZIPCode | Text | 5-digit; 6.54% imputed via Census ZCTA | 98107 |
-| CouncilDistrict | Integer | Districts 1–7; 0.72% geocoded | 6 |
+| CouncilDistrict | Integer | Districts 1-7; 0.72% geocoded | 6 |
 | Region | Text | NORTH / SOUTH / EAST / WEST / SOUTHWEST | NORTH |
 | City | Text | Constant | Seattle |
 | State | Text | Constant | WA |
 
-**Data Quality**: 
+Data Quality: 
 ZIP originally 93.45% complete.
 After GeoPandas spatial join with Census ZCTA shapefiles: 99.9%. 
-(0,0) coordinates treated as missing — masked invalid values.
+(0,0) coordinates treated as missing - masked invalid values.
 
 ---
 
@@ -89,9 +87,9 @@ Composite key ensures each unique type+description gets its own row.
 | ViolationType | Text | Broader classification | Bulk Items |
 | TypeCategory | Text | General / Bulk / Hazardous / Other | Bulk |
 
-**Common values**: Garbage, Furniture, Needles, Litter, Appliances, Tires, Construction Debris, Hazardous Materials
+Common values*: Garbage, Furniture, Needles, Litter, Appliances, Tires, Construction Debris, Hazardous Materials
 
-**Key insight**: Bulk category (Furniture, Appliances, Tires) is growing despite overall -18% decline - specific service gap identified.
+**Key insight: Bulk category (Furniture, Appliances, Tires) is growing despite overall -18% decline - specific service gap identified.
 
 ---
 
@@ -103,7 +101,7 @@ Composite key ensures each unique type+description gets its own row.
 | LocationType | Text | 14 distinct values | Sidewalk |
 | LocationCategory | Text | ROW / Public / Private | ROW |
 
-**Key insight**: Sidewalk is #1 dump location across ALL regions - consistent enforcement focus area.
+Key insight: Sidewalk is #1 dump location across ALL regions - consistent enforcement focus area.
 
 ---
 
@@ -116,11 +114,10 @@ Composite key ensures each unique type+description gets its own row.
 | StatusCategory | Text | Open / Closed / Duplicate | Closed |
 | IsClosed | Boolean | True = request resolved | True |
 
-**Status values**: Open, Closed, Duplicate (Open), Duplicate (Closed),
-and 3 additional variants.
+Status values: Open, Closed, Duplicate (Open), Duplicate (Closed), and 3 additional variants.
 
-**Closure Rate**: 87.46% — includes Duplicate-Closed as resolved.
-233K of 266K requests resolved — benchmark-worthy operations performance.
+Closure Rate: 87.46% - includes Duplicate-Closed as resolved.
+233K of 266K requests resolved - benchmark-worthy operations performance.
 
 ---
 
@@ -149,20 +146,20 @@ and 3 additional variants.
 
 ## Business Logic
 
-**3-Year Growth Calculation**:
+3-Year Growth Calculation:
 ```
 ((Requests_2025 - Requests_2022) / Requests_2022) × 100
 Baseline filter: ZIPs with ≥50 requests in 2022 only
 Result: Overall -18% decline (2022→2025)
 ```
 
-**Closure Rate**:
+Closure Rate:
 ```
 Closure Rate = Closed (inc. Duplicate-Closed) / Total Requests
 Current: 87.46% (233K of 266K resolved)
 ```
 
-**LocationKey fallback logic**:
+LocationKey fallback logic:
 ```
 IF lat/long valid (not 0 or null):
     Key = ROUND(lat,4) + "-" + ROUND(long,4)
@@ -170,13 +167,13 @@ ELSE:
     Key = UPPER(normalised_address_string)
 ```
 
-**CategoryKey (composite)**:
+CategoryKey (composite):
 ```
 Key = ViolationType + "|" + DumpDescription
 Ensures unique row per type+description combination
 ```
 
-**CreatedDateOnly**:
+CreatedDateOnly:
 ```
 Normalised to midnight (00:00:00)
 Ensures clean Many-to-One join with Dim_Date[Date]
@@ -189,14 +186,14 @@ Hour retained separately for temporal analysis
 
 | Metric | Value |
 |--------|-------|
-| Overall 3-year change | −18% (decline) |
+| Overall 3-year change | -18% (decline) |
 | Active backlog | 512 open requests |
 | Closure rate | 87.46% |
 | Largest category | Garbage (volume) |
 | #2 category | Furniture (~62,640 total) |
-| Growing category | Bulk Items ⚠️ |
+| Growing category | Bulk Items |
 | Top dump location | Sidewalk (all regions) |
-| Friday midnight spike | 442 requests — 7× normal |
-| Peak reporting hour | 10 AM–12 PM |
+| Friday midnight spike | 442 requests - 7× normal |
+| Peak reporting hour | 10 AM-12 PM |
 | Highest volume region | SOUTH (105,634 visible) |
 | Most improved ZIPs | 98107, 98103, 98125 (~99% decline) |
