@@ -1,0 +1,51 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== Data Files =====
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.parquet
+!data/sample/*.csv
+
+# ===== Power BI =====
+*.pbix~
+*.pbit~
+*.pbix.tmp
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.sublime-project
+
+# ===== OS =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== Environment =====
+.env
+.env.local
+*.log
+logs/
+*.tmp
+*.bak
+
+# ===== Keep These =====
+!data/README.md
+!data/sample/README.md
+!**/.gitkeep

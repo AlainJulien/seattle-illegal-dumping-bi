@@ -1,0 +1,22 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Geospatial Analysis
+geopandas>=0.13.0
+shapely>=2.0.0
+pyproj>=3.5.0
+
+# Testing & Code Quality
+pytest>=7.3.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
