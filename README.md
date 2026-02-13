@@ -35,17 +35,17 @@ This project transforms raw Seattle Public Utilities illegal dumping data into a
 
 |---------|--------|
 
-| Overall trend | −18% decline (2022→2025) — a success story |
+| Overall trend | −18% decline (2022→2025) - a success story |
 
 | Open backlog | Only 512 active requests |
 
-| Closure rate | 87.46% — benchmark-worthy operations |
+| Closure rate | 87.46% - benchmark-worthy operations |
 
 | Bulk items | Growing despite overall decline |
 
-| Friday midnight | 442 requests — 7× normal (commercial dumping signature) |
+| Friday midnight | 442 requests - 7× normal (commercial dumping signature) |
 
-| Top ZIPs | 98107, 98103, 98125 — each down ~99% since 2022 |
+| Top ZIPs | 98107, 98103, 98125 - each down ~99% since 2022 |
 
 
 
@@ -148,7 +148,7 @@ Star Schema — Kimball Methodology
 
 \- NORTH region highest volume but also most dramatic improvements
 
-\- 98107, 98103, 98125 each declined ~99% — intervention success
+\- 98107, 98103, 98125 each declined ~99% - intervention success
 
 \- Geographic Hotspots Analysis ![Geographic Hotspots](docs/images/Geographic_Hotspots.png)
 
@@ -268,7 +268,7 @@ See \[QUICKSTART.md](QUICKSTART.md) for full setup instructions.
 
 
 
-\[Seattle Open Data Portal — Illegal Dumping Service Requests](https://data.seattle.gov/Community/Illegal-Dumping/5ryf-gfu9)
+\[Seattle Open Data Portal - Illegal Dumping Service Requests](https://data.seattle.gov/Community/Illegal-Dumping/5ryf-gfu9)
 
 
 
